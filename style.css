@@ -1,7 +1,7 @@
 /* navbar */
 
 #navbar {
-    background-color: #995a1a;
+    background-color: #BA55D3;
     color: white;
     padding: 0 15px;
     height: 60px;
@@ -42,4 +42,103 @@
 
 #navbar-list li a:hover {
     border-bottom: 1px solid #FFF;
+}
+
+/* about */ 
+
+#about-section {
+    text-align: center;
+    background-color: #D8BFD8;
+    color: white;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+
+}
+
+/* padarias */
+
+#padarias-section {
+    margin-top: -100px;
+    background-color: #FFF;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+
+#padarias-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.padarias-container {
+    flex: 1;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.central {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+.padarias-container h3 {
+    color: #BA55D3;
+    font-size: 20px;
+}
+
+.padarias-container img {
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid #BA55D3;
+    border-left: 1px solid #BA55D3;
+    border-right: 4px solid #BA55D3;
+    border-bottom: 4px solid #BA55D3;
+}
+
+.padarias-container .subtitle {
+    font-weight: bold;
+    color: #BA55D3;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.padarias-container p {
+    line-height: 25px;
+}
+
+.padarias-container button {
+    padding-top: 5px;
+}
+
+/* nada */
+
+.destaque {
+    font-size: 20px;
+}
+.destaque p {
+    font-size: 30px;
+    padding-top: 6px;
+}
+
+.parag {
+    font-size: 990px;
+}
+
+h3 {
+    font-size: 40px;
 }
